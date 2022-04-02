@@ -19,8 +19,8 @@ public class Program {
         System.out.print("Enter number of employees: ");
         int n = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            System.out.println("Employee #" +(i+1)+ " data:");
+        for (int i = 0; i <= n; i++) {
+            System.out.println("Employee #" +(i)+ " data:");
             System.out.print("Outsourced (y/n)?" );
             char ch = sc.next().charAt(0);
             sc.nextLine();
